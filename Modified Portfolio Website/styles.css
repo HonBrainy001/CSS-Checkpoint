@@ -1,0 +1,136 @@
+<!--Reset all margins-->
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+}
+
+body{
+      background: black;
+      color: white;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: left;
+      max-width: fit-content;
+}
+
+.container{
+      padding: 10px 10%;
+      box-sizing: border-box;
+}
+
+/*-------------------Header------------------*/
+nav{
+      margin: 0;
+      padding: 0;
+      background: orange;
+      height: 80px;
+      width: 100%;
+}
+
+nav ul{
+      float: right;
+      margin-right: 20px;
+      box-sizing: border-box;
+}
+
+nav ul li{
+      display:inline-block;
+      line-height: 80px;
+      margin: 0 5px;
+}
+
+nav ul li a{
+      text-decoration: none;
+      list-style: none;
+      color: white;
+      font-size: 17px;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      font-weight: bold;
+}
+
+a.active,a:hover{
+      background: black;
+      transition: .5s;
+}
+
+.logo{
+      padding: 18px 30px;
+}
+
+.main-header{
+      width: 1130px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7rem;
+      margin-top: 50px;
+      margin-bottom: 110px;
+}
+
+.main-header .person{
+      width: 370px;
+      transition: all 2000ms ease;
+      cursor: pointer;
+}
+
+.main-header .person:hover{
+      transform: scale(1.2);
+}
+
+.main-header .main-text{
+      text-align: center;
+      color: white;
+}
+
+.main-header .main-text h1{
+      font-size: 50px;
+}
+
+.main-header .main-text h4{
+      font-size: 30px;
+      margin-bottom: 20px;
+}
+
+.main-header .btn-3 button{
+      padding: 15px 20px;
+      background: white;
+      border-radius: 30px;
+      border: 1px solid orange;
+      margin-right: 1rem;
+      margin-bottom: 30px;
+      cursor: pointer;
+}
+
+.main-header .btn-3 .btn-4{
+      background: wheat;
+      color: black;
+      border: none;
+      outline: none;
+      transition: all 2000ms ease;
+}
+
+.main-header .btn-3 .btn-4:hover{
+      background: orange;
+}
+
+/*------------------//Header---------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
